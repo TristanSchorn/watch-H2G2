@@ -100,41 +100,41 @@ static void main_window_load(Window *window) {
   load_sequence();
 
   //Time Layer
-  s_time_layer = text_layer_create(GRect(0, 19, 100, 100));
+  s_time_layer = text_layer_create(GRect(0, 15, 100, 100));
   text_layer_set_background_color(s_time_layer, GColorClear);
-  text_layer_set_text_color(s_time_layer, GColorYellow);  
-  text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
+  text_layer_set_text_color(s_time_layer, GColorWhite);  
+  text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentRight);
   
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_time_layer));
 
   //Weather Layer
-  s_weather_layer = text_layer_create(GRect(0, 39, 100, 100));
+  s_weather_layer = text_layer_create(GRect(0, 35, 100, 100));
   text_layer_set_background_color(s_weather_layer, GColorClear);
-  text_layer_set_text_color(s_weather_layer, GColorYellow);
+  text_layer_set_text_color(s_weather_layer, GColorWhite);
   text_layer_set_text_alignment(s_weather_layer, GTextAlignmentRight);
-  text_layer_set_font(s_weather_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
+  text_layer_set_font(s_weather_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   text_layer_set_text(s_weather_layer, "DONT PANIC");
       
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_weather_layer));
 
   //Weekday Layer
 
-  s_weekday_layer = text_layer_create(GRect(0, 59, 100, 100));
+  s_weekday_layer = text_layer_create(GRect(0, 55, 100, 100));
   text_layer_set_background_color(s_weekday_layer, GColorClear);
-  text_layer_set_text_color(s_weekday_layer, GColorYellow);
+  text_layer_set_text_color(s_weekday_layer, GColorWhite);
   //text_layer_set_text(s_weekday_layer, "Saturday");
-  text_layer_set_font(s_weekday_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
+  text_layer_set_font(s_weekday_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   text_layer_set_text_alignment(s_weekday_layer, GTextAlignmentRight);
   
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_weekday_layer));
 
   //Date Layer
-  s_date_layer = text_layer_create(GRect(0, 79, 100, 100));
+  s_date_layer = text_layer_create(GRect(0, 75, 100, 100));
   text_layer_set_background_color(s_date_layer, GColorClear);
-  text_layer_set_text_color(s_date_layer, GColorYellow);
+  text_layer_set_text_color(s_date_layer, GColorWhite);
   text_layer_set_text_alignment(s_date_layer, GTextAlignmentRight);
-  text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
+  text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
       
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_date_layer));
 

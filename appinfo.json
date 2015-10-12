@@ -1,34 +1,33 @@
 {
-  "uuid": "19e96817-033b-451d-9402-774ce54d56d1",
-  "shortName": "H2G2",
-  "longName": "H2G2",
-  "companyName": "Tristan Schorn",
-  "versionCode": 1,
-  "versionLabel": "42.1",
-  "sdkVersion": "3",
-  "targetPlatforms": ["basalt"],
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-    "dummy": 0,
-    "KEY_TEMPERATURE": 0,
-    "KEY_CONDITIONS": 1
-  },
-  "targetPlatforms": [
-    "basalt"
-  ],
-  "sdkVersion": "3",
-  "capabilities": 
-  [ "location", "configurable" ],
-
-  "resources": {
-    "media": [
-      {
-        "type":"raw",
-        "name":"output",
-        "file":"images/outfile2.png"
-      }
-    ]
-  }
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0,
+        "dummy": 0
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "Tristan Schorn",
+    "longName": "H2G2",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "data/outfile2.png",
+                "name": "output",
+                "type": "raw"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "H2G2",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "19e96817-033b-451d-9402-774ce54d56d1",
+    "versionLabel": "42.1",
+    "watchapp": {
+        "watchface": true
+    }
 }
