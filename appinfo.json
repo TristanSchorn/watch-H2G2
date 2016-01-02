@@ -16,7 +16,7 @@
             {
                 "file": "data/outfile2.png",
                 "name": "output",
-                "type": "raw"
+                "type": "bitmap"
             }
         ]
     },
