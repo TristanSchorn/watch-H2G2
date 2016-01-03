@@ -14,8 +14,14 @@
     "resources": {
         "media": [
             {
-                "file": "data/outfile2.png",
+                "file": "images/outfile2.png",
                 "name": "output",
+                "storageFormat": "png",
+                "targetPlatforms": [
+                    "aplite",
+                    "basalt",
+                    "chalk"
+                ],
                 "type": "bitmap"
             }
         ]
@@ -23,7 +29,9 @@
     "sdkVersion": "3",
     "shortName": "H2G2",
     "targetPlatforms": [
-        "basalt"
+        "aplite",
+        "basalt",
+        "chalk"
     ],
     "uuid": "19e96817-033b-451d-9402-774ce54d56d1",
     "versionLabel": "42.1",
